@@ -8,6 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_acdb_cal.acdb \
     vendor/xiaomi/fuxi/proprietary/odm/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Tutu/Tutu_workspaceFileXml.qwsp \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/hrtf5c.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/hrtf5c.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_karaoke_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaoke_res.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_karaokemix_res.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_karaokemix_res.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_headphone.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_headphone.bin \
@@ -15,6 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_spk4ch.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk4ch.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_spk_power_game.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_game.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/misound_res_spk_power_video.bin:$(TARGET_COPY_OUT_ODM)/etc/audio/misound_res_spk_power_video.bin \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/audio/silent-3sec.wav:$(TARGET_COPY_OUT_ODM)/etc/audio/silent-3sec.wav \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_kalama_mtp.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_dynamic.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_static.xml \
@@ -665,6 +667,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/displayconfig/display_id_4630947006070067843.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947006070067843.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/displayconfig/display_layout_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_layout_configuration.xml \
+    vendor/xiaomi/fuxi/proprietary/vendor/etc/hrtf5c.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hrtf5c.bin \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/media_profiles_kalama.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_kalama.xml \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/sensors/config/chre_dynamic_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/chre_dynamic_sensors.json \
     vendor/xiaomi/fuxi/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
