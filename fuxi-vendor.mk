@@ -22,32 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/mixer_paths_overlay_static.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/mixer_paths_overlay_static.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml:$(TARGET_COPY_OUT_ODM)/etc/audio/sku_kalama/resourcemanager_kalama_mtp.xml \
     vendor/xiaomi/fuxi/proprietary/odm/etc/backend_conf.xml:$(TARGET_COPY_OUT_ODM)/etc/backend_conf.xml \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/102_SummerDay.png:$(TARGET_COPY_OUT_ODM)/etc/camera/102_SummerDay.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/103_Fantasy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/103_Fantasy.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/104_Meet.png:$(TARGET_COPY_OUT_ODM)/etc/camera/104_Meet.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/105_WindSing.png:$(TARGET_COPY_OUT_ODM)/etc/camera/105_WindSing.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/106_Lost.png:$(TARGET_COPY_OUT_ODM)/etc/camera/106_Lost.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/107_Central.png:$(TARGET_COPY_OUT_ODM)/etc/camera/107_Central.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/108_NorthernEurope.png:$(TARGET_COPY_OUT_ODM)/etc/camera/108_NorthernEurope.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/109_Rome.png:$(TARGET_COPY_OUT_ODM)/etc/camera/109_Rome.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/110_BlackGold.png:$(TARGET_COPY_OUT_ODM)/etc/camera/110_BlackGold.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/111_GreenOrange.png:$(TARGET_COPY_OUT_ODM)/etc/camera/111_GreenOrange.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/112_CyberPunk.png:$(TARGET_COPY_OUT_ODM)/etc/camera/112_CyberPunk.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/113_BlackIce.png:$(TARGET_COPY_OUT_ODM)/etc/camera/113_BlackIce.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/121_Bleach.png:$(TARGET_COPY_OUT_ODM)/etc/camera/121_Bleach.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/122_Thriller.png:$(TARGET_COPY_OUT_ODM)/etc/camera/122_Thriller.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/123_TealOrange.png:$(TARGET_COPY_OUT_ODM)/etc/camera/123_TealOrange.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/124_JapaneseStyle.png:$(TARGET_COPY_OUT_ODM)/etc/camera/124_JapaneseStyle.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/125_Latin.png:$(TARGET_COPY_OUT_ODM)/etc/camera/125_Latin.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_ODM)/etc/camera/126_Fantasy2.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_ODM)/etc/camera/127_Creamy.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_ODM)/etc/camera/128_Sepia.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/129_Vivid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/129_Vivid.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/130_Natural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/130_Natural.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/131_Monochrome.png:$(TARGET_COPY_OUT_ODM)/etc/camera/131_Monochrome.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_ODM)/etc/camera/132_MonochromeHighContrast.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/133_MonochromeBrown.png:$(TARGET_COPY_OUT_ODM)/etc/camera/133_MonochromeBrown.png \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/134_MonochromeBlue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/134_MonochromeBlue.png \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/CFR_para_UW_V01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CFR_para_UW_V01.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/GpuKernelRepo.pb:$(TARGET_COPY_OUT_ODM)/etc/camera/GpuKernelRepo.pb \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/MILDC_CALIB_0x01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/MILDC_CALIB_0x01.bin \
@@ -79,7 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/beauty_config_gl.json:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty_config_gl.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/beauty_style_nude.cng:$(TARGET_COPY_OUT_ODM)/etc/camera/beauty_style_nude.cng \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/bokehParams.json:$(TARGET_COPY_OUT_ODM)/etc/camera/bokehParams.json \
-    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/camerabooster.json:$(TARGET_COPY_OUT_ODM)/etc/camera/camerabooster.json \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/cameradfx_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameradfx_config.json \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/cameraopt_reclaim.json:$(TARGET_COPY_OUT_ODM)/etc/camera/cameraopt_reclaim.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/camxoverridesettings.txt \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/com.xiaomi.dcal.wt.data:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.wt.data \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/com.xiaomi.dcal.wt.golden:$(TARGET_COPY_OUT_ODM)/etc/camera/com.xiaomi.dcal.wt.golden \
@@ -459,6 +434,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/ultrazoom.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ultrazoom.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/ultrazoom_ii.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/ultrazoom_ii.bin \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/video_stabilizer.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/video_stabilizer.xml \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/110_BlackGold.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/110_BlackGold.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/129_LeicaVivid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/129_LeicaVivid.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/130_LeicaNatural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/130_LeicaNatural.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/131_MonochromeTrue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/131_MonochromeTrue.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/132_MonochromeHighContrast.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/132_MonochromeHighContrast.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/133_MonochromeBrown.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/133_MonochromeBrown.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/134_MonochromeBlue.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/134_MonochromeBlue.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/144_RedHero.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/144_RedHero.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/146_TactileGreen.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/146_TactileGreen.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/148_Mild.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/148_Mild.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/149_LilyWhite.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/149_LilyWhite.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/150_Bright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/150_Bright.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/151_Fresh.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/151_Fresh.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/152_Limpid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/152_Limpid.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/153_KC64.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/153_KC64.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/154_V250.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/154_V250.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/155_H400.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/155_H400.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/156_ColdWhite.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/156_ColdWhite.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/157_Native.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/157_Native.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/158_BWClassical.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/158_BWClassical.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/159_Flowers.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/159_Flowers.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/160_Vivid.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/160_Vivid.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/161_KP160.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/161_KP160.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/162_Natural.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/162_Natural.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/163_KG200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/163_KG200.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/164_FC400.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/164_FC400.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/165_C50D.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/165_C50D.png \
+    vendor/xiaomi/fuxi/proprietary/odm/etc/camera/videofilter/166_F50.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/166_F50.png \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_ODM)/etc/camera/vidhance_calibration \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/xiaomi/EcoCloudInfo.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/EcoCloudInfo.json \
     vendor/xiaomi/fuxi/proprietary/odm/etc/camera/xiaomi/dualbokehjpegsnapshot.json:$(TARGET_COPY_OUT_ODM)/etc/camera/xiaomi/dualbokehjpegsnapshot.json \
@@ -960,6 +963,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.policy.mfl \
     com.qualcomm.mcx.policy.xr \
     com.qualcomm.qti.mcx.usecase.extension \
+    com.xiaomi.camdfx \
     com.xiaomi.camhal.overlap \
     com.xiaomi.camhal.submodel.camxfrag \
     com.xiaomi.camhal.submodel.chifrag \
@@ -971,6 +975,7 @@ PRODUCT_PACKAGES += \
     libAF \
     libHISCppAlgos \
     libMiMotion \
+    libMiPhotoFilter \
     libTrueSight \
     libXMFaceFocus \
     libaidenoiser \
@@ -1017,6 +1022,7 @@ PRODUCT_PACKAGES += \
     libcom.xiaomi.mawutilsold \
     libcom.xiaomi.metadatautils \
     libcom.xiaomi.pluginutils \
+    libcom.xiaomi.providercallback \
     libcommonchiutils \
     libdeflicker \
     libdeflickerNM \
@@ -1107,7 +1113,6 @@ PRODUCT_PACKAGES += \
     libtriplecam_video_optical_zoom \
     libubifocus \
     libvideoBokeh \
-    libvideofilter_only \
     libvideoml \
     libvidhance \
     libvidhance_active_ois \
